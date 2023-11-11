@@ -1,13 +1,17 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import CPU from '../components/CPU';
 
-const inter = Inter({ subsets: ['latin'] })
+const program = [
+  'LOAD 10',
+  'ADD 20',
+  'STORE',
+  'SUB 5',
+  'JUMP 0',
+];
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <CPU program={program} />
     </main>
-  )
+  );
 }
