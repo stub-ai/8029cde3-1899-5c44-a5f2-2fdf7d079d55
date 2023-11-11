@@ -1,0 +1,1 @@
+{"config":{"system_prompt":"","model":"","temperature":0,"top_p":1,"framework":"nextjs-page-tailwind"},"prompts":[{"prompt":"create an app simulating a very simple cpu with register A and a pointer to the memory, provide some simple testing program testing a simple assembler program.","md5":"94d7ec4c6a88ca300776aad16d01b107"}]}
